@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ToDo Web</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <div>
+          <p class="eyebrow">Offline</p>
+          <h1>ToDo Web</h1>
+          <p class="subtitle">Small and fast. Data stays in your browser.</p>
+        </div>
+      </header>
+
+      <section class="composer">
+        <input id="taskInput" type="text" placeholder="Add a task..." maxlength="140" />
+        <button id="addButton" type="button">Add</button>
+      </section>
+
+      <section class="filters" role="tablist" aria-label="Filters">
+        <button class="filter is-active" data-filter="all" type="button">All</button>
+        <button class="filter" data-filter="active" type="button">Active</button>
+        <button class="filter" data-filter="done" type="button">Done</button>
+      </section>
+
+      <section class="list">
+        <ul id="taskList"></ul>
+      </section>
+
+      <footer class="footer">
+        <span id="count">0 items</span>
+        <button id="clearCompleted" type="button">Clear done</button>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
