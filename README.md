@@ -1,12 +1,12 @@
 # todo-web
 
-A tiny offline ToDo app built with plain HTML, CSS, and JavaScript.
+HTML/CSS/JavaScriptだけで作った、軽量なオフラインToDoアプリです。
 
-## Features
-- Add, complete, and delete tasks
-- Filters for All / Active / Done
-- Local storage for persistence
+## 主な特徴
+- タスク追加 / 完了 / 削除
+- フィルター（All / Active / Done）
+- ローカルストレージに保存
 
-## Run
-Open `index.html` in your browser.
-# todo-web
+## ローカル実行手順
+1. `index.html` をブラウザで開く  
+   例: `open index.html`（macOS）/ `start index.html`（Windows）
